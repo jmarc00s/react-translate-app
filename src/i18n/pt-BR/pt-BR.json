@@ -1,5 +1,10 @@
 {
-    "translation": {
-        "welcome": "Bem vindo!"
+  "translation": {
+    "welcome": "Bem vindo!",
+    "menu": {
+      "about": "Sobre",
+      "home": "Início",
+      "contacts": "Contatos"
     }
+  }
 }

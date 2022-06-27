@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import i18n from '../../../i18n/index';
+import { useTranslation } from 'react-i18next';
 
 type Language = 'pt-BR' | 'en-US';
 
@@ -16,6 +16,8 @@ const initialState: AppContextProps = {
 export const AppContext = React.createContext<AppContextProps>(initialState);
 
 export const AppContextProvider = ({ children }: any) => {
+  const { i18n } = useTranslation();
+
   const [language, setLanguage] = useState<Language>('pt-BR');
 
   const changeLanguage = (newLanguage: Language): void => {
