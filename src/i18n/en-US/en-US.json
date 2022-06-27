@@ -1,10 +1,11 @@
 {
   "translation": {
-    "welcome": "Welcome!",
+    "welcome": "Welcome to TranslateApp!",
     "menu": {
       "about": "About",
       "home": "Home",
       "contact": "Contacts"
-    }
+    },
+    "current_language": "The current language is: "
   }
 }

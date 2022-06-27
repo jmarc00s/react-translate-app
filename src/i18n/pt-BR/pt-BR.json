@@ -1,10 +1,11 @@
 {
   "translation": {
-    "welcome": "Bem vindo!",
+    "welcome": "Bem vindo ao TranslateApp!",
     "menu": {
       "about": "Sobre",
       "home": "Início",
       "contacts": "Contatos"
-    }
+    },
+    "current_language": "A linguagem selecionada é:"
   }
 }
