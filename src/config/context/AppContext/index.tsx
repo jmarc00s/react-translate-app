@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-
-type Language = 'pt-BR' | 'en-US';
+import { Language } from '../../types/language';
 
 interface AppContextProps {
   language: Language;
